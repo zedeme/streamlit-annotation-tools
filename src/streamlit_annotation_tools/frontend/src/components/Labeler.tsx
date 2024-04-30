@@ -77,7 +77,7 @@ const Labeler: React.FC = () => {
   return (
     <div>
       <div className="flex flex-row flex-wrap">
-        <div className="flex flex-wrap justify-between items-center cursor-pointer mr-2 mb-2 pr-3 rounded text-white text-base bg-primary hover:bg-secondary">
+        <div className="flex flex-wrap justify-between items-center cursor-pointer mr-2 mb-2 pr-3 rounded text-white text-base bg-primary hover:bg-secondary" style="visibily: hidden;">
           <input
             type="text"
             placeholder="Enter Label Name"
